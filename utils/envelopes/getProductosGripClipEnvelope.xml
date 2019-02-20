@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <getProductos xmlns="http://tempuri.org/">
+            <pProductoID></pProductoID>
+            <pDesc></pDesc>
+            <pClas>13</pClas>
+            <pMarca></pMarca>
+            <pPresentacion></pPresentacion>
+            <pColor></pColor>
+            <pRegs>100000000</pRegs>
+            <pRegIni>1</pRegIni>
+            <pRegFin>100000000</pRegFin>
+            <pListaPrecio>2</pListaPrecio>
+            <pImagen>0</pImagen>
+        </getProductos>
+    </soap12:Body>
+</soap12:Envelope>

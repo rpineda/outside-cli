@@ -1,19 +1,23 @@
 const menus = {
   main: `
-    outside [command] <options>
+    df-shopify-sync [command] <options>
 
-    today .............. show weather for today
-    forecast ........... show 10-day weather forecast
-    version ............ show package version
-    help ............... show help menu for a command`,
+    products-stock ....................... get stock of products from Webservice
+    products-image ....................... get images of product from Webservice
+    products-to-store .................... put product to shopify store
+    product-images-to-store .............. put images of product to shopify store
+    today ................................ show weather for today
+    forecast ............................. show 10-day weather forecast
+    version .............................. show package version
+    help ................................. show help menu for a command`,
 
   today: `
-    outside today <options>
+    df-shopify-sync today <options>
 
     --location, -l ..... the location to use`,
 
   forecast: `
-    outside forecast <options>
+    df-shopify-sync forecast <options>
 
     --location, -l ..... the location to use`,
 }

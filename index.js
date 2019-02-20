@@ -15,6 +15,15 @@ module.exports = () => {
   }
 
   switch (cmd) {
+    case 'products-stock':
+      require('./df-cmds/products-stock')(args)
+      break
+    case 'products-image':
+      require('./df-cmds/products-image')(args)
+      break
+    case 'products-to-store':
+      require('./df-cmds/products-to-store')(args)
+      break
     case 'today':
       require('./cmds/today')(args)
       break
